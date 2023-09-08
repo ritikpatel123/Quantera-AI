@@ -15,7 +15,7 @@ import img12 from "./image/Empowering.png";
 import img13 from "./image/2.png";
 import img14 from "./image/3.png";
 import img15 from "./image/detail.png";
-import img16 from './image/footer.png';
+import img16 from "./image/footer.png";
 
 import "./Home.scss";
 
@@ -220,25 +220,28 @@ export default function Home() {
           <div className="second-bottom-div">
             <details>
               <summary role="button" tabindex="0">
-              Do you use my data for anything?
+                Do you use my data for anything?
               </summary>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </details>
             <details>
               <summary role="button" tabindex="0">
-              Can I cancel my subscription anytime?
+                Can I cancel my subscription anytime?
               </summary>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </details>
             <details>
               <summary role="button" tabindex="0">
-              I would like to request a feature!
+                I would like to request a feature!
               </summary>
-              <p>Of couse, we are always happy to hear from people who <br /> have ideas! Send them along to contact@quantera.com.</p>
+              <p>
+                Of couse, we are always happy to hear from people who <br />{" "}
+                have ideas! Send them along to contact@quantera.com.
+              </p>
             </details>
             <details>
               <summary role="button" tabindex="0">
-              When does my discount apply?
+                When does my discount apply?
               </summary>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </details>
