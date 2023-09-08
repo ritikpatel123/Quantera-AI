@@ -1,0 +1,45 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+  
+    img {
+      height: 1.7rem;
+      padding-left: 48.5px;
+    }
+    .Middle-div {
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+
+      h1 {
+        font-family: "Urbanist-Medium";
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-right: 40px;
+      }
+    }
+  
+    .btn {
+      padding: 6px;
+      font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+      border-radius: 6px;
+      border: none;
+      width: 100px;
+      height: 35px;
+      background: black;
+      box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+        inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+        0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+      color: #dfdedf;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin: 48.5px;
+    }
+  }
+  
