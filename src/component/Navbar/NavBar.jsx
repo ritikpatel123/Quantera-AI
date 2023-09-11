@@ -1,5 +1,5 @@
 import './NavBar.scss'
-import logo from '../image/logo.png'
+import logo from '../Home-Page/image/logo.png'
  function NavBar() {
     return(
         <div className='NavBar'>

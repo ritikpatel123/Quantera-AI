@@ -6,13 +6,15 @@
 .main {
   height: fit-content;
   width: 100%;
-  background-color: aliceblue;
 
   .div-1 {
     height: 80rem;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url('./image/Untitled_Artwork_4 (4).png');
+    background-size: cover; // to make sure the image covers the whole div
+    background-repeat: no-repeat;
     .Top-div {
       height: 20rem;
       width: 50rem;
@@ -32,6 +34,7 @@
       margin-top: 20px;
       margin-left: 129.5px;
 
+   
       button {
         padding: 6px;
         font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
@@ -50,6 +53,7 @@
         -webkit-user-select: none;
         touch-action: manipulation;
       }
+   
       input {
         opacity: 0.5;
         color: rgb(225, 217, 217);
@@ -59,6 +63,8 @@
         padding-left: 15px;
         font-size: 15px;
       }
+     
+     
     }
 
     .mainUI {
@@ -406,7 +412,9 @@
   .div-8 {
     height: 46.875rem;
     width: 100%;
-
+    background-image: url('./image/Untitled_Artwork_4 (5).png');
+    background-size: cover; // to make sure the image covers the whole div
+    background-repeat: no-repeat;
     .top-div{
       display: flex;
       flex-direction: column;
@@ -417,27 +425,6 @@
         h6{
            margin-top: 20px;
         }
-       .btn-div-8{
-        
-          padding: 6px;
-          font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
-          font-size: 15px;
-          font-weight: 500;
-          border-radius: 6px;
-          border: none;
-          width: 10rem;
-          height: 1.9rem;
-          background: #73f3c4;
-          box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
-            inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
-            0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
-          color: black;
-          user-select: none;
-          -webkit-user-select: none;
-          touch-action: manipulation;
-          margin-top: 40px;
-          margin-left: 639px;
-       }
     }
     .bottom-div{
       margin-top: 200px;

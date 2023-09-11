@@ -1,5 +1,5 @@
-import React from "react";
-import NavBar from "./Navbar/NavBar";
+import React, { useState } from "react";
+import NavBar from "../Navbar/NavBar";
 import img1 from "./image/img1.png";
 import img2 from "./image/img2.png";
 import img3 from "./image/img3.png";
@@ -15,14 +15,25 @@ import img12 from "./image/Empowering.png";
 import img13 from "./image/2.png";
 import img14 from "./image/3.png";
 import img15 from "./image/detail.png";
-import img16 from "./image/footer.png";
-
+import img17 from "./image/Untitled_Artwork_4 (1).png";
+import GreenBtn from "../Green-Btn/Btn";
+import Footer from "../Footer/footer";
 import "./Home.scss";
 
 export default function Home() {
+  const [email, setEmail] = useState("");
+
+  const handleInputChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleButtonClick = () => {
+    console.log(email); // This will log the current state of the email input field
+  };
+
   return (
     <div className="main">
-      <div className="div-1">
+      <div className="div-1" style={{ backgroundImage: `url(${img17})` }}>
         <NavBar />
         <div className="Top-div">
           <img src={img12} alt="" />
@@ -39,8 +50,16 @@ export default function Home() {
           </h4>
         </div>
         <div className="email-container">
-          <input type="email" placeholder="Email" />
-          <button type="submit">Recieve premium report</button>
+          <input
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={handleInputChange}
+          />
+          <GreenBtn
+            buttonText={"Get Premium Report"}
+            onClick={handleButtonClick}
+          />
         </div>
 
         <img className="mainUI" src={img5} height={900} width={1100} alt="" />
@@ -204,11 +223,11 @@ export default function Home() {
             Are you a professional or a student <br /> looking for bulk
             licenses?
           </h1>
-          <h6>
+          <h6 style={{ marginBottom: 20 }}>
             Students must be enrolled in a university program and <br />
             be able to show proof of enrolment.
           </h6>
-          <button className="btn-div-8">Get in touch →</button>
+          <GreenBtn buttonText={"Get in touch →"} />
         </div>
         <div className="bottom-div">
           <div className="first-bottom-div">
@@ -249,7 +268,7 @@ export default function Home() {
         </div>
       </div>
       <div className="div-9">
-        <img src={img16} alt="" />
+        <Footer />
       </div>
     </div>
   );
