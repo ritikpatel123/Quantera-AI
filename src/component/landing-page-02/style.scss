@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+
+    //    first div
+
+    #first-div {
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    // extra div
+    .extradiv {
+
+        height: 36rem;
+        width: 100%;
+        // background-color: pink;
+
+        .heading {
+            opacity: 1;
+            color: rgb(0, 0, 0);
+            /* font-family: "Urbanist-SemiBold"; */
+            font-size: 17px;
+            font-weight: 500;
+            margin-left: 2rem;
+            font-style: normal;
+            letter-spacing: -0.2px;
+            line-height: 37px;
+        }
+
+        .search {
+            display: flex;
+            justify-content: flex-start;
+            text-align: end;
+            align-items: center;
+            width: 28%;
+            margin-left: 2rem;
+            margin-bottom: 3rem;
+            background-color: rgb(245, 246, 246);
+
+
+
+            input {
+                opacity: 0.5;
+                background-color: rgba(245, 246, 246, 1);
+                border: none;
+                height: 2rem;
+                width: 74%;
+                padding-left: 15px;
+                font-size: 15px;
+            }
+
+            .btn {
+                margin-left: 1rem;
+
+            }
+
+        }
+
+
+    }
+
+
+    .extrainner {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        opacity: 1;
+        color: rgba(0, 0, 0, 1);
+        font-family: 'Urbanist', sans-serif;
+
+
+
+        .dataone {
+            margin-right: 4.8rem;
+            text-align: end;
+        }
+
+        .datatwo {
+            margin-right: 4.8rem;
+            text-align: end;
+        }
+
+        .datathree {
+            margin-right: 4.8rem;
+            text-align: end;
+        }
+
+
+
+
+    }
+
+    .innerpara {
+        margin-top: 6rem;
+
+        h4 {
+            opacity: 1;
+            color: rgba(0, 0, 0, 0.396152);
+            font-family: "Urbanist-Black";
+            font-size: 60px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: -3.6px;
+            text-align: center;
+            width: 53rem;
+            margin: auto;
+        }
+
+        p {
+            opacity: 1;
+            color: rgba(0, 0, 0, 0.396152);
+            font-family: "Urbanist-Black";
+            font-size: 29px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: -0.6px;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            margin-top: 6rem;
+
+        }
+    }
+
+}
+
+
+// second div
+
+.second-div {
+    position: relative;
+
+    .second-left-div {
+      
+        
+
+        background-color: #4a4b4b;
+        width: 42rem;
+        margin-top: 2rem;
+        height: 33rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+        img {
+            width: 91%;
+            height: 31rem;
+        }
+    }
+
+}
+
+.second-right-div {
+
+    background-color: #4CAF50;
+    width: 88%;
+    margin-left: 12%;
+    height: 35rem;
+
+
+    h1 {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        /* font-family: "Urbanist-Black"; */
+        font-size: 66px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -3.6px;
+        margin-left: 38rem;
+        margin-top: 5rem;
+
+    }
+
+    p {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        //  font-family: "Urbanist-Black"; 
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -0.6px;
+        margin-left: 38rem;
+        margin-top: 5rem;
+
+    }
+
+
+
+
+    .second-top-right-div {
+        float: right;
+        background-color: #43c247;
+        height: 4rem;
+        width: 15rem;
+        margin-top: -31px;
+    }
+
+}
+
+
+
+// third div
+
+.third-div {
+    background-color: #000000;
+    height: 41rem;
+    width: 100%;
+
+    .bottom-data {
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        //  font-family: "Urbanist-Black"; 
+        font-size: 60px;
+        letter-spacing: -1.6px;
+        text-align: center;
+        margin: 12rem;
+        margin-top: 14rem;
+
+
+
+    }
+    .btn{
+        width: 63%;
+        float: right;
+        
+        
+    }
+
+
+    .data {
+        h1 {
+            opacity: 1;
+            color: rgb(255, 255, 255);
+            //  font-family: "Urbanist-Black"; 
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: -2.6px;
+            margin: 2rem;
+            width: 46%;
+            margin-left: 35rem;
+
+
+        }
+
+        p {
+            opacity: 1;
+            color: rgb(255, 255, 255);
+            //  font-family: "Urbanist-Black"; 
+            font-size: 30px;
+            font-style: normal;
+            letter-spacing: -1.6px;
+            margin: 2rem;
+            width: 46%;
+            margin-left: 35rem;
+
+        }
+    }
+
+    img {
+        height: 6rem;
+        width: 63%;
+        float: right;
+        display: flex;
+        margin-top: 3rem;
+
+    }
+
+    .third-inner-div {
+        background-color: #43c247;
+        height: 3rem;
+        width: 20rem;
+        margin-left: 22rem;
+
+    }
+}
+
+
+// fourth div
+
+.fourth-div {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 30rem;
+
+    .main {
+        h1 {
+            opacity: 1;
+            color: rgb(0, 0, 0);
+            font-family: "Urbanist-SemiBold";
+            font-size: 124px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -3.73px;
+            text-align: center;
+
+        }
+    }
+
+    .fourth-mid-data {
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem;
+
+        .left {
+
+
+            p {
+                opacity: 1;
+                color: rgb(0, 0, 0);
+                font-family: "Urbanist-Black";
+                font-size: 35px;
+                width: 83%;
+                margin: 6rem;
+                align-items: center;
+
+            }
+
+        }
+
+
+
+
+
+        .right {
+
+
+            img {
+                margin-top: 4rem;
+                width: 100%;
+                height: 8rem;
+
+            }
+
+        }
+    }
+
+    .fourth-last-data {
+
+        display: flex;
+
+        .pic {
+            img {
+                height: 38rem;
+                width: 100%;
+                margin-right: 20rem;
+            }
+        }
+
+        .right-data {
+            h1 {
+                opacity: 1;
+                color: rgb(0, 0, 0);
+                font-family: "Urbanist-SemiBold";
+                font-size: 65px;
+                /* font-weight: 600; */
+                /* font-style: normal; */
+                letter-spacing: -3.73px;
+                margin-left: rem;
+                margin: 5rem;
+                margin-left: 8rem;
+            }
+
+            p {
+                margin-left: 8.5rem;
+                font-size: 30px;
+                margin-top: 10rem;
+            }
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+// fifth div
+
+.fifth-div {
+    position: relative;
+
+    .fifth-div-down {
+        background-color: #FFE359;
+        width: 100%;
+        height: 34rem;
+
+        h1 {
+            display: inline-block;
+            width: 23%;
+            margin: 8rem;
+            opacity: 1;
+            color: rgb(0, 0, 0);
+            font-family: "Urbanist-Black";
+            font-size: 46px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: -0.6px;
+
+        }
+
+
+        p {
+
+            opacity: 1;
+            margin-left: 8rem;
+            color: rgb(0, 0, 0);
+            font-family: "Urbanist-SemiBold";
+            font-size: 30px;
+            width: 47%;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -0.33px;
+           
+
+        }
+
+    }
+
+    .fifth-div-up {
+        position: absolute;
+        background-color: #4A4A4A;
+        right: 0;
+        width: 40rem;
+        height: 32rem;
+        top: 2rem;
+
+
+        img {
+            height: 32rem;
+            width: 100%;
+        }
+
+
+        .fifth-inner-div {
+            background-color: #FFE569;
+            width: 35%;
+            height: 3rem;
+            float: right;
+            margin-top: -49px;
+            opacity: 0.9;
+
+
+        }
+
+    }
+
+
+
+}
+
+// sixth div
+
+#sixth-div {
+
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 42rem;
+
+    .inner {
+
+        .main-sixth {
+            p {
+                text-align: center;
+                font-size: 60px;
+                width: 40%;
+                margin: auto;
+
+            }
+           
+        }
+
+        .btn{
+            margin-top: 2rem;
+            width: 10%;
+            margin: auto;
+            margin-top: 1rem;
+            
+
+        }
+
+        img {
+            width: 51%;
+            height: 14%;
+            margin-top: 3rem;
+            text-align: center;
+
+            margin-left: 23rem;
+        }
+
+        .sixth-inner-div {
+            background-color: #FFE569;
+            height: 2rem;
+            width: 58%;
+            opacity: 0.7;
+
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 21em;
+    }
+
+
+}
+
+
+
+// seven div
+
+.seven-div {
+    opacity: 0.9;
+
+    background-color: rgba(75, 0, 255, 1);
+    height: 37rem;
+    width: 100%;
+    z-index: -1;
+
+    .main-head-seven {
+        h1 {
+            opacity: 1;
+            color: rgba(255, 255, 255, 1);
+            font-family: "Urbanist-Black";
+            font-size: 140px;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: -3.51px;
+            text-align: center;
+
+        }
+    }
+
+
+
+
+    .inner-data-seven {
+        display: flex;
+
+        .left-inner-seven {
+            margin-top: 5rem;
+            width: 69%;
+
+            p {
+                opacity: 1;
+                color: rgba(255, 255, 255, 1);
+                font-family: "Urbanist-SemiBold";
+                font-size: 50px;
+                width: 55%;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: 1.73px;
+                text-align: left;
+                margin-left: 5rem;
+            }
+
+        }
+
+        .right-inner-seven {
+            margin-top: 5rem;
+
+            p {
+                opacity: 1;
+                color: rgba(255, 255, 255, 1);
+                font-family: "Urbanist-Bold";
+                font-size: 30px;
+                font-weight: 700;
+                font-style: normal;
+                line-height: 36.3px;
+
+            }
+        }
+    }
+
+    .right-bottom-box {
+        opacity: 5;
+        background-color: rgba(227, 86, 91, 1);
+        float: right;
+        width: 20%;
+        height: 4rem;
+        margin-top: 4rem;
+
+
+    }
+
+    .seven-upper-div {
+        opacity: 0.6;
+        display: inline-block;
+        background-color: rgb(227, 86, 91);
+        height: 6rem;
+        width: 25%;
+        margin: -3rem;
+
+
+
+
+    }
+}
+
+
+
+
+// eight div
+
+.eight-div {
+    background-color: #000000;
+    width: 100%;
+    height: 45rem;
+
+    .inner-div {
+        padding: 5rem;
+
+
+        .search {
+            display: flex;
+            justify-content: flex-start;
+            text-align: end;
+            align-items: center;
+            width: 28%;
+            margin: auto;
+            margin-bottom: 3rem;
+            background-color: rgb(245, 246, 246);
+
+
+
+            input {
+                opacity: 0.5;
+                background-color: rgba(245, 246, 246, 1);
+                border: none;
+                height: 2rem;
+                width: 74%;
+                padding-left: 15px;
+                font-size: 15px;
+            }
+
+            .btn {
+                margin-left: 1rem;
+
+            }
+
+        }
+
+
+
+
+
+        h1 {
+            opacity: 1;
+            color: rgba(255, 255, 255, 1);
+            font-family: "Urbanist-Black";
+            font-size: 80px;
+            width: 60%;
+            font-weight: 900;
+            font-style: normal;
+            letter-spacing: -0.68px;
+            text-align: center;
+            line-height: 90px;
+            text-align: center;
+            margin: auto;
+
+        }
+
+        p {
+            opacity: 1;
+            color: rgba(255, 255, 255, 1);
+            font-family: "Urbanist-SemiBold";
+            font-size: 35px;
+            font-weight: 600;
+            font-style: normal;
+            letter-spacing: -2.33px;
+            line-height: 140px;
+            text-align: center;
+        }
+
+        img {
+            width: 15%;
+            align-items: center;
+            margin-left: 34rem;
+
+        }
+
+
+    }
+}
