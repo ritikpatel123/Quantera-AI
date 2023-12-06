@@ -1,10 +1,10 @@
 import React from 'react'
 import './Btn.scss'
 
-export default function Btn({ buttonText }) {
+export default function Btn({ buttonText,onClick }) {
   return (
     <div className='green-btn' >
-        <button type="submit">{buttonText}</button>
+        <button onClick={onClick}type="submit">{buttonText}</button>
     </div>
   )
 }
